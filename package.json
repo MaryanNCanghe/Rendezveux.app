@@ -25,6 +25,7 @@
     "autoprefixer": "10.4.14",
     "class-variance-authority": "^0.6.1",
     "clsx": "^1.2.1",
+    "encoding": "^0.1.13",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
     "eslint-config-prettier": "^8.8.0",
@@ -34,7 +35,8 @@
     "micro": "^10.0.1",
     "mongodb": "^6.9.0",
     "mongoose": "^7.3.4",
-    "next": "13.4.10",
+    "next": "^14.2.11",
+    "node-fetch": "^2.7.0",
     "postcss": "8.4.26",
     "prettier": "^3.0.0",
     "react": "18.2.0",
@@ -47,5 +49,9 @@
     "typescript": "5.1.6",
     "uploadthing": "^5.2.0",
     "zod": "^3.21.4"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
