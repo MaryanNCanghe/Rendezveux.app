@@ -18,7 +18,7 @@ function CommunityCard({ id, name, username, imgUrl, bio, members }: Props) {
   return (
     <article className='community-card'>
       <div className='flex flex-wrap items-center gap-3'>
-        <Link href={`/communities/${id}`} className='relative h-12 w-12'>
+        <Link href={`/communities/${id}`} className='relative size-12'>
           <Image
             src={imgUrl}
             alt='community_logo'
